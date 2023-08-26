@@ -1,0 +1,11 @@
+{
+  "github": {
+    "silent": true
+  },
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://netease-cloud-music-api-ochre-sigma.vercel.app/:match*"
+    }
+  ]
+}
